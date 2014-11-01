@@ -2,14 +2,14 @@
 PRODUCT_RELEASE_NAME := lt01wifi
 
 # Inherit some common Liquid stuff.
-$(call inherit-product, vendor/liquid/config/common_tablet.mk)
+$(call inherit-product, vendor/gigglekat/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/lt01wifi/full_lt01wifi.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lt01wifi
-PRODUCT_NAME := liquid_lt01wifi
+PRODUCT_NAME := gigglekat_lt01wifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T310
 PRODUCT_MANUFACTURER := samsung
